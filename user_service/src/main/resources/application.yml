@@ -1,0 +1,16 @@
+ server:
+      port: 8082
+ spring:
+   datasource:
+       url: jdbc:mysql://localhost:3306/user_service
+       username: root
+       password: Pranjal1308
+
+   jpa:
+     hibernate:
+       ddl-auto: update
+       show-sql: true
+
+
+ jwt:
+   secret: foodify_secret_foodify_secret_12345
